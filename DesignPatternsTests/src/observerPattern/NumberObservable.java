@@ -11,10 +11,18 @@ public class NumberObservable extends Observable{
 	
 	private int no = 0;
 	
+	/**
+	 * Init with a number.
+	 * @param n
+	 */
 	public NumberObservable(int n) {
 		this.no = n;
 	}
 	
+	/**
+	 * Notify observers once a change has been detected.
+	 * @param n
+	 */
 	public void setNo(int n) {
 		this.no = n;
 		this.setChanged();

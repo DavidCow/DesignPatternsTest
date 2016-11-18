@@ -3,6 +3,12 @@ package observerPattern;
 import java.util.Observable;
 import java.util.Observer;
 
+/**
+ * Observer sample which is supposed to be notified when Observable has changed its number.
+ * It then refreshes its own int "actNumber" accordingly.
+ * @author David
+ *
+ */
 public class SampleObserver implements Observer{
 
 	private String observerName;
